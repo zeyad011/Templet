@@ -2,7 +2,7 @@ using Templet.Core.Bases;
 using Templet.Core.Features.Users.Queries.Model;
 using Templet.Core.Features.Users.Queries.Response;
 using Templet.Core.Wrappers;
-using Templet.Data.Entities.HR.Identity;
+using Templet.Data.Entities.Identity;
 using AutoMapper;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
@@ -42,7 +42,6 @@ public class AppUserQueryHandler : ResponseHandler,
     {
         //check user exist or no 
         var user = await _userManager.Users
-       .Include(e => e.Department)
        .FirstOrDefaultAsync(e => e.Id == request.UserId);
 
         if (user is null) return NotFound<GetUserByIdResponse>();

@@ -1,4 +1,6 @@
-﻿namespace Templet.Core.Bases
+﻿using System.Net;
+
+namespace Templet.Core.Bases
 {
     public class Response<T>
     {

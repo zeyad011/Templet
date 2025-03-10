@@ -1,5 +1,5 @@
 using Templet.Core.Features.Users.Command.Model;
-using Templet.Data.Entities.HR.Identity;
+using Templet.Data.Entities.Identity;
 
 namespace Templet.Core.Mapping.Users;
 

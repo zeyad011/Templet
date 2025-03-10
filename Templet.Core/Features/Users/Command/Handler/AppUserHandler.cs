@@ -1,10 +1,10 @@
 using Templet.Core.Bases;
 using Templet.Core.Features.Users.Command.Model;
-using Templet.Data.Entities.HR.Identity;
 using AutoMapper;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Templet.Data.Entities.Identity;
 
 namespace AGECS_ERP.Core.Features.Users.Command.Handler;
 
