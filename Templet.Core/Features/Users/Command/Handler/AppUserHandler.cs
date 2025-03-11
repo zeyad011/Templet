@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Templet.Data.Entities.Identity;
 
-namespace AGECS_ERP.Core.Features.Users.Command.Handler;
+namespace Templet.Core.Features.Users.Command.Handler;
 
 public class AppUserHandler : ResponseHandler,
     IRequestHandler<AddUserCommand, Response<string>>,

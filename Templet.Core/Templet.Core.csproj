@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Templet.Data\Templet.Data.csproj" />
+    <ProjectReference Include="..\Templet.Service\Templet.Service.csproj" />
   </ItemGroup>
 
 </Project>

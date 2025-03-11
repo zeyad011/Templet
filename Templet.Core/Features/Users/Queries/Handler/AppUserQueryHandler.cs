@@ -8,7 +8,7 @@ using MediatR;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
-namespace AGECS_ERP.Core.Features.Users.Queries.Handler;
+namespace Templet.Core.Features.Users.Queries.Handler;
 
 public class AppUserQueryHandler : ResponseHandler,
     IRequestHandler<GetUserPaginatedListQuery, PaginatedResult<GetUserPaginatedListResponse>>,
